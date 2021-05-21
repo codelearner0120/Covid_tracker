@@ -1,0 +1,15 @@
+<h2 class="main_head">Covid Tracker</h2>
+<div>
+  <div id="container">
+  </div>
+  <h3 class="state_class">State</h3>
+  <div *ngFor="let s of state;let i = index" id="box">
+    <em><a [routerLink]="" (click)="sendData(s,i)"><em><h4>{{s}}</h4></em></a></em>
+    
+  </div>
+  <h3 style="text-align: center;color: red;">Union Teritorries</h3>
+  <div *ngFor="let u of union" id="box">
+    
+    <em><em><h4>{{u}}</h4></em></em>
+  </div>
+</div>

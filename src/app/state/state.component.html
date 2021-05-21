@@ -1,0 +1,6 @@
+<h2 class="main_state">{{state}}<em>({{stateData.statecode}})</em></h2>
+<h3>Districts</h3>
+<div *ngFor="let district of districts | keyvalue" id="box">
+    
+    <a [routerLink]="" (click)="districtPage(district.key)"><em><h4>{{district.key}}</h4></em></a>
+</div>

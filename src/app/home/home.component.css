@@ -1,0 +1,43 @@
+#box{
+  display: inline-block;
+ 
+  padding: 1% 2%;
+  border: 2px solid red;
+  margin: 2px 3px;
+  width:27%;
+  height:10vh;
+  background-color: lawngreen;
+  border-radius: 15px;
+  cursor: pointer;
+}
+div:nth-child(1):hover{
+   background-color: darkblue;
+}
+.state_class{
+    text-align: center;
+    font-size: 29px;
+    color:red;
+    
+}
+.main_head{
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 2px 2px red;
+    color: darkblue;
+}
+@media (max-width:502px){
+    #box{
+        width:95%
+    }
+}
+@media (min-width:503px) and (max-width:657px){
+    #box{
+        width:44%
+    }
+}
+@media (min-width:2503px) {
+    #box{
+        width:20%
+    }
+}
+
